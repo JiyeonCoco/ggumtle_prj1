@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/upload.css') }}">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/upload.js') }}"></script>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <div class="img_upload">
+            <!-- upload text part -->
+            <p class="img_upload-text">
+                TEST file
+                <span class="img_upload-warning"> ※ *.zip / *.7z / *.tar / *.wget (압축파일)로 업로드해주세요 ※ </span>
+            </p>
+            <!-- upload file part -->
+            <div class="upload_btn">
+                <input type="text" class="upload_txt" value="Please upload file." placeholder="Please upload file." disabled>
+                <div class="upload">
+                    <input type="file" id="select_file" name="select_file" accept="zip,application/octet-stream,application/zip,application/x-zip,application/x-zip-compressed">
+                    <label for="select_file"> Select File </label> 
+                </div>
+                <div id="canvas_size"> </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
