@@ -2,8 +2,8 @@
 
 ## Creating a Conda Environment
 ```
-$ conda create -n magicphoto2 python=3.8
-$ conda activate magicphoto2
+$ conda create -n ggumtle python=3.8
+$ conda activate ggumtle
 ```
 
 ## Install package
