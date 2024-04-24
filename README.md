@@ -7,9 +7,10 @@ $ conda activate magicphoto2
 ```
 
 ## Install package
-
+```
 $ pip install ultralytics
 $ pip install flask
 
 $ cd yolov5
 $ pip install -r requirements.txt
+```
